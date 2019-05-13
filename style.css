@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+}
+
+header {
+  height: 300px;
+}
+
+section {
+  min-height: 200px;
+  padding: 6%;
+}
+
+#about{
+  background-color: gray;
+}
+
+#project{
+  background-color: gainsboro;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(163, 163, 163);
+}
